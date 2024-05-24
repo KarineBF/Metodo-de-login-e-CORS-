@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 namespace Exo.WebApi.Repositories
 {
     public class ProjetoRepository
@@ -18,7 +17,6 @@ namespace Exo.WebApi.Repositories
         {
             return _context.Projetos.ToList();
         }
-
         public void Cadastrar(Projeto projeto)
         {
             _context.Projetos.Add(projeto);
