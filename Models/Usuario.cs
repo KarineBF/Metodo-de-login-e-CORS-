@@ -1,5 +1,4 @@
-namespace Exo.WebApi
-{
+namespace Exo.WebApi{
     public class Usuario
     {
         public int Id { get; set; }
